@@ -16,6 +16,12 @@ a, a:active,a:visited{
   font: inherit;
   cursor: pointer;
   outline:none;
+  box-shadow: none !important;
+  -webkit-tap-highlight-color: transparent !important;
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  user-select: none;
 }
 .notifAlert{
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);

@@ -105,8 +105,8 @@ function Nav() {
                 {" "}
                 <MdClose className="text-2xl text-red" />
               </button>
-              <li className="py-3 text-lg">Food</li>
-              <li className="py-3 text-lg">Local Dishes</li>
+             <Link to="/"> <li className="py-3 text-lg">Food</li></Link>
+             <Link to="/localdish"><li className="py-3 text-lg">Local Dishes</li></Link> 
               <li className="py-3 text-lg">Drinks</li>
               <li className="py-3 text-lg">Contact Us</li>
             </ul>
